@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAssembly", "WebAssembly\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAssembly.Client", "WebAssembly\WebAssembly.Client\WebAssembly.Client.csproj", "{7EBECFBA-5BA2-4BCB-8ECE-11B69BCBE1B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto", "Auto\Auto\Auto.csproj", "{FDD51D35-3541-4674-8529-5110E06C185E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto.Client", "Auto\Auto.Client\Auto.Client.csproj", "{738E49D6-E47F-4876-8733-8F04C08A3663}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,19 @@ Global
 		{7EBECFBA-5BA2-4BCB-8ECE-11B69BCBE1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EBECFBA-5BA2-4BCB-8ECE-11B69BCBE1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EBECFBA-5BA2-4BCB-8ECE-11B69BCBE1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD51D35-3541-4674-8529-5110E06C185E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD51D35-3541-4674-8529-5110E06C185E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD51D35-3541-4674-8529-5110E06C185E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD51D35-3541-4674-8529-5110E06C185E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{738E49D6-E47F-4876-8733-8F04C08A3663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{738E49D6-E47F-4876-8733-8F04C08A3663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{738E49D6-E47F-4876-8733-8F04C08A3663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{738E49D6-E47F-4876-8733-8F04C08A3663}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A25DDE28-C32D-47A3-BCCF-D954368FC73F}
 	EndGlobalSection
 EndGlobal
